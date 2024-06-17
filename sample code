@@ -1,0 +1,11 @@
+{
+      "Sid": "Stmt1464968483619",
+      "Effect": "Deny",
+      "Principal": "*",
+      "Action": "s3:PutObject",
+      "NotResource": [
+        "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*.jpg",
+        "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*.png",
+        "arn:aws:s3:::DOC-EXAMPLE-BUCKET/*.gif"
+      ]
+    }
